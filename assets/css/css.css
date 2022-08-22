@@ -621,3 +621,8 @@ footer {
 .btn__left {
     transform: scale(-1);
 }
+@media (max-width: 500px ) {
+.slick-track {
+	display: flex !important;
+    column-gap: 16px;
+}}
