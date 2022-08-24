@@ -475,8 +475,9 @@ div:is(.comment__wrap, .slick-slide, .slick-current, .slick-active):focus {
 }
 .comment__text {
 	width: 100%;
+	height: 100%;
 	max-width: 738px;
-	height: 180px;
+	min-height: 180px;
 
 
 	background: #2C3037;
@@ -512,6 +513,7 @@ div:is(.comment__wrap, .slick-slide, .slick-current, .slick-active):focus {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
+    flex-grow: 1;
 }
 
 .fedback__block {
@@ -629,3 +631,4 @@ footer {
 	display: flex !important;
     column-gap: 16px;
 }}
+
